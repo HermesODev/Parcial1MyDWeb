@@ -90,11 +90,17 @@ align-content: center
     text-decoration: none;
     text-align: center;
     background-color: rgb(162, 255, 216);
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+    
 }
 
 #main-header .main-navigation ul li a:hover{
     color:orangered;
     text-decoration: overline;
+    background-color: rgb(94, 175, 141)
+    
+    
 }
 
 #main-header .main-navigation ul li a:visited{
